@@ -1,37 +1,50 @@
-Parking Space Detection
-این پروژه یک برنامه ساده برای تشخیص وضعیت مکان‌های پارکینگ در یک ویدیو است. برنامه از فیلمی از یک پارکینگ استفاده می‌کند و مکان‌های خالی و پر را مشخص می‌کند.
+# Parking Space Detection
 
-نصب
-دانلود یا کلون کردن مخزن.
-نصب ماژول‌های مورد نیاز:
-Copy code
-pip install numpy opencv-python
-استفاده
-اجرای برنامه:
-Copy code
-python parking_detection.py
-برای خروج از برنامه، کلید q را بزنید.
-مثال
-نمایش ویدیویی از برنامه
+## Description
+This project is a simple program for detecting the status of parking spaces in a video. The program uses a video of a parking lot and identifies empty and occupied parking spaces.
 
-ورودی
-برنامه ویدیویی از یک پارکینگ به عنوان ورودی مورد نیاز دارد.
+## Installation
+1. Download or clone the repository.
+2. Install required modules:
 
-خروجی
-برنامه تصویر ویدیویی را نمایش می‌دهد که مکان‌های پارکینگ با رنگهای مختلف مشخص شده‌اند. مکان‌های پارکینگ خالی با عبارت "Empty" مشخص می‌شوند.
 
-اعتبار
-این پروژه بر اساس آموزش "Parking Space Counter using OpenCV Python | Computer Vision" انجام شده است.
+## Usage
+1. Run the program:
 
-همچنین می‌توانید فایل requirements.txt را به ریپوزیتوری خود اضافه کنید که حاوی ماژول‌های مورد نیاز برای اجرای برنامه است:
 
-Copy code
-numpy
-opencv-python
-از جمله کارهایی که می‌توانید به ریپوزیتوری اضافه کنید:
+2. Press 'q' to exit the program.
 
-تصویری از ورودی: یک تصویر از ویدیو یا پارکینگ مورد استفاده را به README اضافه کنید.
-توضیحات دقیق‌تر در README: بیشتر در مورد نحوه استفاده، ورودی‌ها و خروجی‌ها توضیح دهید.
-توضیحات کد: توضیحاتی بیشتر برای توابع و بخش‌های کد به صورت کامنت در کد اضافه کنید.
-توسعه‌ی بیشتر: اگر به دنبال توسعه بیشتر این پروژه هستید، از نقاط قوت و ضعف کنونی صحبت کرده و لیستی از ایده‌هایی که می‌خواهید به آن اضافه کنید بسازید.
-مستند سازی: اگر پروژه توسط چندین نفر مورد استفاده قرار می‌گیرد، بهتر است مستنداتی را برای استفاده از برنامه بنویسید.
+## Example
+[Watch a video example of the program](link-to-example-video)
+
+## Input
+The program requires a video of a parking lot as input.
+
+## Output
+The program displays a video in which parking spaces are marked with different colors. Empty parking spaces are marked with a red rectangle.
+
+## Credits
+- This project is based on the ["OpenCV Vehicle Parking Detection" tutorial](https://www.youtube.com/watch?v=-UUtETL4azU).
+
+## License
+[MIT License](link-to-license)
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Create a new Pull Request.
+
+## Changelog
+- **v1.0.0 (2024-05-03)**: Initial release.
+
+## Future Improvements
+- Implement more advanced parking space detection algorithms.
+- Add a graphical user interface (GUI) for easier interaction.
+- Save parking space status information for analysis.
+- Improve code documentation.
+
+## Dependencies
+- numpy
+- opencv-python
