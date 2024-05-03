@@ -15,7 +15,7 @@ This project is a simple program for detecting the status of parking spaces in a
 2. Press 'q' to exit the program.
 
 ## Example
-[Watch a video example of the program](link-to-example-video)
+[Watch a video example of the program](https://youtu.be/caKnQlCMIYI?si=B5HSWB0aEhVw6x3G)
 
 ## Input
 The program requires a video of a parking lot as input.
@@ -27,7 +27,7 @@ The program displays a video in which parking spaces are marked with different c
 - This project is based on the ["OpenCV Vehicle Parking Detection" tutorial](https://www.youtube.com/watch?v=-UUtETL4azU).
 
 ## License
-[MIT License](link-to-license)
+[MIT License](https://youtu.be/caKnQlCMIYI?si=B5HSWB0aEhVw6x3G)
 
 ## Contributing
 1. Fork the repository.
